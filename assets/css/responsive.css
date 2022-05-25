@@ -1,0 +1,92 @@
+@media screen and (max-width:767px) {
+
+    header {
+        position: relative;
+        width: 100%;
+        background: #ffffff;
+        margin-bottom: 15%;
+        box-shadow: 0px -3px 17px #CC353E;
+    }
+
+    a.navbar-brand img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .navbar-toggler {
+        margin: 16px 0;
+    }
+
+
+    .productslider .owl-prev {
+        position: relative;
+        left: -3%;
+        top: 30%;
+    }
+    
+    .productslider .owl-next {
+        position: relative;
+        right: -3%;
+        top: 30%;
+    }
+
+    .Aboutimage{
+        display: none;
+    }
+
+}
+    
+
+
+@media screen and (min-width:320px) and (max-width:450px) {
+    lottie-player{
+        display: none;
+    }
+    .theme-title h1{
+        font-size: 20px;
+    }
+    .theme-title h1:before{
+        font-size: 40px;
+    }
+    .theme-title{
+        text-align: center;
+    }
+    .filter-buttons li {
+        display: inline-block;
+        margin: 0 0px;
+    }
+
+    .filter-buttons ul li button {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    header {
+        position: relative;
+        width: 100%;
+        background: #ffffff;
+        margin-bottom: 15%;
+        box-shadow: 0px -3px 17px #CC353E;
+    }
+
+    a.navbar-brand img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .navbar-toggler {
+        margin: 10% 0;
+    }
+
+    li.nav-item.logo
+    {
+        display: none;
+    }
+
+    .slidertext h2 {
+        font-size: 18px;
+        top: 0%;
+    }
+    
+
+
+}
